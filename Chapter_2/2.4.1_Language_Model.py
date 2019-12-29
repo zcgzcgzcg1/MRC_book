@@ -23,11 +23,11 @@ def bigram(A, vocab, K):
             cnt[word] += 1
             if i + 1 < len(sent):                
                 cnt2[word][sent[i + 1]] += 1
-        for word in cnt2:
-            for word2 in cnt2[word]: 
-                # 拉普拉斯平滑
-                prob = (cnt2[word][word2]+K) / (cnt[word] +K * len(vocab) + 0.0) 
-                print('P({0}|{1})={2}'.format(word2, word, prob))
+    for word in cnt2:
+        for word2 in cnt2[word]: 
+            # 拉普拉斯平滑
+            prob = (cnt2[word][word2]+K) / (cnt[word] +K * len(vocab) + 0.0) 
+            print('P({0}|{1})={2}'.format(word2, word, prob))
 
 A = [['<s>', '今天', '天气', '不错', '</s>'], 
    ['<s>', '我们', '今天', '去', '划船', '</s>'],
