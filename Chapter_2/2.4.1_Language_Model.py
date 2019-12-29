@@ -17,7 +17,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 def bigram(A, vocab, K):
     cnt = {word: 0 for word in vocab} 
     cnt2 = {word: {word2: 0 for word2 in vocab} for word in vocab} 
-   # cnt[word]是word在文本中出现的次数，cnt2[word][word2]是word,word2在文本中出现的次数（word2在后）
+    # cnt[word]是word在文本中出现的次数，cnt2[word][word2]是word,word2在文本中出现的次数（word2在后）
     for sent in A:
         for i, word in enumerate(sent):
             cnt[word] += 1
