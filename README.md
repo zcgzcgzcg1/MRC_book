@@ -1,4 +1,8 @@
 # 《机器阅读理解：算法与实践》代码
+<p align="left">
+  <img src="https://cs.stanford.edu/~cgzhu/pic/cover.png" width="250" alt="MRC_book">
+</p>
+
 这个代码库提供《机器阅读理解：算法与实践》一书中所有的代码示例。
 
 所有程序基于Python 3。所需要的库文件在requirements.txt中指明。
