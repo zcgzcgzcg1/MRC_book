@@ -19,4 +19,6 @@ python Chapter_3/3.1.2_CNN_Pooling.py
 
 第七章SDNet的代码统一放置在https://github.com/microsoft/SDNet.
 
+本书的勘误信息在Errata.md中。
+
 更多问题请联系作者朱晨光，邮箱zcg.stanford@gmail.com.
