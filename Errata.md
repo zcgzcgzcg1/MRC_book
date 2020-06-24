@@ -15,3 +15,5 @@
 <p align="left">
   <img src="https://cs.stanford.edu/~cgzhu/pic/mrc_errata_p109.png" width="250" alt="errata_p109">
 </p>
+
+感谢@JeremySun1224等读者的反馈。
