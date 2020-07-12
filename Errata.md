@@ -31,4 +31,6 @@ P(&lt;s&gt;)P(我们|&lt;s&gt;)P(&lt;/s&gt;|我们) + P(&lt;s&gt;)P(今天|&lt;s
 
 第123页第9行“s_0, ..., s_j均为可训练的参数”改为“s_0, ..., s_L均为可训练的参数“
 
+第145页倒数第12、13行中CUDA_VISIBLE_DEVICE改为CUDA_VISIBLE_DEVICES
+
 感谢@JeremySun1224等读者的反馈。
