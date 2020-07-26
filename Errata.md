@@ -33,4 +33,6 @@ P(&lt;s&gt;)P(我们|&lt;s&gt;)P(&lt;/s&gt;|我们) + P(&lt;s&gt;)P(今天|&lt;s
 
 第145页倒数第12、13行中CUDA_VISIBLE_DEVICE改为CUDA_VISIBLE_DEVICES
 
+第213页第3、4行Input Level改为input layer，output level改为output layer
+
 感谢@JeremySun1224等读者的反馈。
