@@ -35,4 +35,6 @@ P(&lt;s&gt;)P(我们|&lt;s&gt;)P(&lt;/s&gt;|我们) + P(&lt;s&gt;)P(今天|&lt;s
 
 第213页第3、4行Input Level改为input layer，output level改为output layer
 
+第215页第14行“由于取最大分数的下标...对于网络参数不可导”改为“由于对应最大分数的类别k* 的准确率对于网络参数不可导”
+
 感谢@JeremySun1224等读者的反馈。
