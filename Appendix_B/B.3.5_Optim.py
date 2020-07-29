@@ -37,8 +37,8 @@ for batch_id in range(10):
     # 获得当前批次的数据，batch_size=3
     x_now = x[batch_id * 3: (batch_id + 1) * 3]
     y_now = y[batch_id * 3 : (batch_id + 1) * 3]
-    res = net(x_now)                         # RNN结果res，维度为3115
-    y_hat, _ = torch.max(res, dim=2)      # 最终预测张量y_hat，维度为31
+    res = net(x_now)                         # RNN结果res，维度为3 x 1 x 15
+    y_hat, _ = torch.max(res, dim=2)      # 最终预测张量y_hat，维度为3 x 1
     # 均方差损失函数
     loss = torch.sum(((y_now - y_hat) ** 2.0)) / 3  
     print('loss =', loss)
