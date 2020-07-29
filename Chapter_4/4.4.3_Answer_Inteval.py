@@ -9,7 +9,7 @@ def get_best_interval(prob_s, prob_e, L):
     # 获得m×m的矩阵，其中prob[i,j]=prob_s[i]×prob_e[j]
     prob = torch.ger(prob_s, prob_e) 
     # 将prob限定为上三角矩阵，且只保留主对角线及其右上方L-1条对角线的值，其他值清零
-    # 即如果i>j或j-i+1>L，设置prob[i, j] x 0
+    # 即如果i>j或j-i+1>L，设置prob[i, j] = 0
     prob.triu_().tril_(L - 1) 
     # 转化成为numpy数组
     prob = prob.numpy()
